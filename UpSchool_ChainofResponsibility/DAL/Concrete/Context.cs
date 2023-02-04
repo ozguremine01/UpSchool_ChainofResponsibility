@@ -7,7 +7,7 @@ namespace UpSchool_ChainofResponsibility.DAL.Concrete
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=DESKTOP-H7B28ES;database=DBUpSchoolChainofResponsibility; integrated security=true");
+            optionsBuilder.UseSqlServer("server=******;database=DBUpSchoolChainofResponsibility; integrated security=true");
         }
 
         public DbSet<BankProcess> BankProcesses { get; set; }
